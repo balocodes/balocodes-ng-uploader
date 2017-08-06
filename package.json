@@ -1,0 +1,41 @@
+{
+  "name": "balocodes-ng-uploader",
+  "version": "1.1.6",
+  "description": "Simple file uploader for angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular",
+    "2",
+    "Angular",
+    "4",
+    "file",
+    "uploader"
+  ],
+  "author": "Amin Balogun <balocodes@gmail.com> (http://balocodes.herokuapp.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://balocodes@bitbucket.org/balocodes/balocodes-ng-uploader.git"
+  },
+  "homepage": "https://bitbucket.org/balocodes/balocodes-ng-uploader#readme",
+  "devDependencies": {
+    "@angular/common": "^4.3.3",
+    "@angular/compiler": "^4.3.3",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.3.3",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.3.3",
+    "@angular/platform-browser-dynamic": "^4.3.3",
+    "@angular/router": "^4.3.3",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "dependencies": {
+    "rxjs": "^5.4.2"
+  }
+}
