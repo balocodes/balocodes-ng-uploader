@@ -12,10 +12,10 @@ providers:[BaloUploader,...]; //add to you providers
 
 /*In your component*/
 import { BaloUploader } from 'balocodes-ng-uploader';
-import { RequestOptions, Http, Headers } from '@angular/core';
+import { RequestOptions, Http, Headers } from '@angular/http';
 
 
-constuctor(public balo:BaloUploader){}
+constuctor(public balo:BaloUploader, public _http:Http){}
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ captureFile(event){
 let fire = {    
     event, 
     type:0, 
-    http:Http,
+    http:this._http,
     ro:RequestOptions, 
     url:null, 
     yourFormData:null, 

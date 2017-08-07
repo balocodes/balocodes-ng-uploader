@@ -1,6 +1,6 @@
 {
   "name": "balocodes-ng-uploader",
-  "version": "1.1.6",
+  "version": "1.1.9",
   "description": "Simple file uploader for angular 2",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://balocodes@bitbucket.org/balocodes/balocodes-ng-uploader.git"
+    "url": "https://bitbucket.org/balocodes/balocodes-ng-uploader.git"
   },
   "homepage": "https://bitbucket.org/balocodes/balocodes-ng-uploader#readme",
   "devDependencies": {
